@@ -5,7 +5,7 @@ The first word is lowercase, the rest of the words have their initial letter cap
 and all of the words are joined together.
 '''
 # camelCase = "fOnt proCESSOR and ParsER"
-def convertToCameCase(camelCaseSentence):
+def convertToCamelCase(camelCaseSentence):
     splitCamelCase = camelCaseSentence.lower().title().split()
     # This line will convert everything to lower and capitalized the first letter or each.
     counter = 0
@@ -38,4 +38,4 @@ while True:
         \nMake sure the sentence starts with a letter: \n").lstrip())
         continue
 
-convertToCameCase(userInput)
+convertToCamelCase(userInput)
